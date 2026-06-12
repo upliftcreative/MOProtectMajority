@@ -1,0 +1,9 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:;"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Content-Type = "text/html; charset=UTF-8"
