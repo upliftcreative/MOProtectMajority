@@ -24,17 +24,19 @@
     ─────────────────────────────────────────────────────────────────── */
 
     /* ─── SCENE 1 ──────────────────────────────────────────────────── */
-    #scene1 {
-      position: absolute;
-      inset: 0;
-      z-index: 2;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-end;
-      padding-bottom: 40px;
-      overflow: hidden;
-    }
+  #scene1 {
+  position: absolute;
+  inset: 0;
+  width: 300px;
+  height: 250px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 40px;
+  overflow: hidden;
+}
 
     /* Background image for scene 1 */
     .s1-bg {
@@ -135,6 +137,8 @@
     #scene2 {
       position: absolute;
       inset: 0;
+      width: 300px;
+      height: 250px;
       z-index: 1;   /* BELOW scene1 */
       padding-bottom: 20px;
     }
@@ -204,7 +208,7 @@
       padding: 8px 14px 10px;
     }
     .s2-chyron-main {
-      font-size: 24px; font-weight: 900;
+      font-size: 22px; font-weight: 900;
       color: #fff; line-height: 1.15;
       text-transform: uppercase; letter-spacing: 0.5px;
     }
@@ -225,11 +229,13 @@
 
     /* ─── PERSISTENT ───────────────────────────────────────────────── */
     #persistent {
-      position: absolute;
-      inset: 0;
-      z-index: 20;
-      pointer-events: none;
-    }
+  position: absolute;
+  inset: 0;
+  width: 300px;
+  height: 250px;
+  z-index: 20;
+  pointer-events: none;
+}
 
 
 
